@@ -1,0 +1,19 @@
+@use 'config/cores.scss';
+@use 'config/reset.scss';
+@use 'secoes/produtos.scss';
+
+
+body {
+    background-color: cores.$corDeFundo;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100% ;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    background-color: yellow;
+}
